@@ -1,0 +1,68 @@
+body		{ font-family: 'NanumSquare', monospace }
+.bold		{ font-weight: 700 }
+.bolder		{ font-weight: 800 }
+.light		{ font-weight: 300 }
+
+#logo{
+    width: 150px;
+    height: 24px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.dropdown-menu{
+    opacity: 1;
+    text-align: center;
+    width: 15px;
+}
+
+#LoginDropdown {
+    width: 300px !important;
+    height: 350px !important;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+#form1Example1{
+    height: 40px;
+}
+
+#form1Example2{
+    height: 40px;
+}
+
+#menu-recipe{
+    font-size: 1.3em;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+#menu-story{
+    font-size: 1.3em;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+#menu-recom{
+    font-size: 1.3em;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+#login-btn1{
+    height: 42px;
+}
+
+#search-form{
+    margin-right: 10px;
+    color: black;
+}
+
+#login-btn2{
+    background-image: url("../img/kakao_login_medium_wide\ 1.png");
+    height: 38px;
+    background-size: 100% 100%;
+    background-color: #00fffff;
+    color: black;
+}
