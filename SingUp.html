@@ -138,7 +138,7 @@
         <div class="row d-flex justify-content-center" id="main-box">
 
             <div class="col-lg-6 col-md-3" id="text-field">
-              <h4 class="mb-5 text-center" style="padding-top: 10%;"><strong>회원가입</strong></h4>
+              <h4 class="mb-5 text-center" style="padding-top: 15%; text-align: center;"><strong>회원가입</strong></h4>
                 <form>
                     <!-- 2 column grid layout with text inputs for the first and last names -->
                     <div class="row mb-4">
@@ -178,10 +178,14 @@
                       <label class="form-label" for="form3Example6">생년월일 입력</label>
                     </div>
 
-                    <!-- Email input -->
-                    <div class="form-outline mb-4">
-                      <input type="password" id="form3Example7" class="form-control" />
-                      <label class="form-label" for="form3Example7">생년월일 입력</label>
+                    <div class="col-lg-6 col-md-3" >
+                      <div id="text-gender" class="col">
+                        <a>성별</a>
+                      </div>
+                      <div class="btn-group col" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary" id="man">남성</button>
+                        <button type="button" class="btn btn-primary" id="woman">여성</button>
+                      </div>
                     </div>
 
                     <!-- Email input -->
@@ -204,11 +208,9 @@
                     </button>
                 </form>
             </div>
-            <div class="col-lg-6 col-md-3">
-              <button type="submit" class="btn btn-primary btn-block mb-4">
-                등록하기
-            </button>
-              </div>
+            <div class="col-lg-6 col-md-3" >
+              <img src="./img/LoginPic.png" id="img-re"/>
+            </div>
         
       </div>
     </section>

@@ -1,17 +1,26 @@
 
 
 #main-box{
-    margin-top: 3%;
-    border: #c4c4c4 solid;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 1%;
-    margin-bottom: 3%;
+    width: 100%;
+    margin-top: 5%;
 }
 
 #text-field{
-    padding-left: 10%;
-    padding-right: 10%;
+    border: #c4c4c4 solid;
+    width: 394px;
+    height: 700px;
+    float: left;
+margin-left: 25%;
+    padding-left: 18px;
+    padding-bottom: 8px;
+    padding-right: 18px;
+}
+
+
+#img-re{
+    float: left;
+    height: 100%;
+    width: 400px;
 }
 
 #sub-btn{
@@ -40,6 +49,13 @@ body		{ font-family: 'NanumSquare', monospace }
     width: 15px;
 }
 
+.h4{
+    padding-top: 4%;
+}
+
+#form3Example1{
+    margin-top: 2%;
+}
 #LoginDropdown {
     width: 300px !important;
     height: 350px !important;
@@ -86,6 +102,29 @@ body		{ font-family: 'NanumSquare', monospace }
     background-image: url("../img/kakao_login_medium_wide\ 1.png");
     height: 38px;
     background-size: 100% 100%;
-    background-color: #00fffff;
     color: black;
+}
+
+#text-gender{
+}
+
+#man{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#woman{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.btn-group{
+    margin: auto;
+    width: 100%;
 }
